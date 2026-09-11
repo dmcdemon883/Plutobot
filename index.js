@@ -18,7 +18,7 @@ const path = require('path');
 // IMPORTANT:
 // Put your NEW Discord bot token between the quotes.
 // NEVER share your token with anyone.
-const TOKEN = 'MTU0NjQ5Mzk1MzM5NjgzNDM2NA.GysBAG.gcN-XJWoweiCk1WcERnGR5KfzOlXGlOhAv_9uM';
+const TOKEN = process.env.DISCORD_TOKEN;
 
 const CLIENT_ID = '1546493953396834364';
 
