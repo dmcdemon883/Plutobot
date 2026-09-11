@@ -109,6 +109,15 @@ const commands = [
     new SlashCommandBuilder()
         .setName('ping')
         .setDescription('Check if Pluto is online'),
+   new SlashCommandBuilder()
+    .setName('ask')
+    .setDescription('Ask Pluto anything')
+    .addStringOption(option =>
+        option
+            .setName('question')
+            .setDescription('What do you want to ask Pluto?')
+            .setRequired(true)
+    )
 
     new SlashCommandBuilder()
         .setName('server')
